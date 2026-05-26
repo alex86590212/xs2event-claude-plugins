@@ -4,16 +4,11 @@ Claude Code plugin that installs the full xs2event development plugin stack in o
 
 ## Installation
 
-Install this plugin locally:
+Add the marketplace and install:
 
 ```bash
-claude plugin install . --scope user
-```
-
-Or point Claude Code at the directory while testing:
-
-```bash
-claude --plugin-dir /path/to/xs2event-claude-plugins
+claude plugin marketplace add alex86590212/xs2event-claude-plugins
+claude plugin install xs2event-claude-plugins@xs2event
 ```
 
 ## Usage

@@ -1,0 +1,18 @@
+{
+  "name": "xs2event",
+  "owner": {
+    "name": "xs2event"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for xs2event development",
+    "homepage": "https://github.com/alex86590212/xs2event-claude-plugins"
+  },
+  "plugins": [
+    {
+      "name": "xs2event-claude-plugins",
+      "version": "1.0.0",
+      "source": ".",
+      "description": "xs2event development stack — installs all required Claude Code plugins in one command"
+    }
+  ]
+}
