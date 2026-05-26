@@ -1,0 +1,9 @@
+{
+  "name": "xs2event-claude-plugins",
+  "version": "1.0.0",
+  "description": "xs2event development stack — installs all required Claude Code plugins in one command",
+  "author": {
+    "name": "xs2event"
+  },
+  "repository": "https://github.com/baris/xs2event-claude-plugins"
+}
