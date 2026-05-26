@@ -17,6 +17,7 @@ Install all Claude Code plugins required for xs2event development in a single ru
 | typescript-lsp | claude-plugins-official |
 | context7 | claude-plugins-official |
 | frontend-design | claude-plugins-official |
+| figma | claude-plugins-official |
 | superpowers | claude-plugins-official |
 | andrej-karpathy-skills | karpathy-skills (forrestchang/andrej-karpathy-skills) |
 | claude-mem | thedotmack (thedotmack/claude-mem) |
@@ -45,6 +46,7 @@ claude plugin install playwright@claude-plugins-official
 claude plugin install typescript-lsp@claude-plugins-official
 claude plugin install context7@claude-plugins-official
 claude plugin install frontend-design@claude-plugins-official
+claude plugin install figma@claude-plugins-official
 claude plugin install superpowers@claude-plugins-official
 claude plugin install andrej-karpathy-skills@karpathy-skills
 claude plugin install claude-mem@thedotmack
