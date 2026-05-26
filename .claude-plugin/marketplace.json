@@ -11,7 +11,7 @@
     {
       "name": "xs2event-claude-plugins",
       "version": "1.0.0",
-      "source": ".",
+      "source": "./plugin",
       "description": "xs2event development stack — installs all required Claude Code plugins in one command"
     }
   ]
