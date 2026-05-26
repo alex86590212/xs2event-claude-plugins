@@ -19,6 +19,7 @@ Install all Claude Code plugins required for xs2event development in a single ru
 | frontend-design | claude-plugins-official |
 | superpowers | claude-plugins-official |
 | andrej-karpathy-skills | karpathy-skills (forrestchang/andrej-karpathy-skills) |
+| claude-mem | thedotmack (thedotmack/claude-mem) |
 
 ## Instructions
 
@@ -26,13 +27,14 @@ Parse $ARGUMENTS for an optional `--scope` flag (default: `user`).
 
 Run the following steps **sequentially**, printing a status line before each one:
 
-### Step 1 — Add the karpathy-skills marketplace
+### Step 1 — Add marketplaces
+
+Run each marketplace add command. If it exits non-zero because the marketplace already exists, print a skip message and continue — do not abort.
 
 ```bash
 claude plugin marketplace add forrestchang/andrej-karpathy-skills
+claude plugin marketplace add thedotmack/claude-mem
 ```
-
-If it exits non-zero because the marketplace already exists, print a skip message and continue — do not abort.
 
 ### Step 2 — Install each plugin
 
@@ -45,6 +47,7 @@ claude plugin install context7@claude-plugins-official
 claude plugin install frontend-design@claude-plugins-official
 claude plugin install superpowers@claude-plugins-official
 claude plugin install andrej-karpathy-skills@karpathy-skills
+claude plugin install claude-mem@thedotmack
 ```
 
 ### Step 3 — Print summary
